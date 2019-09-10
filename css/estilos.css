@@ -10,7 +10,7 @@ header{
 	display: flex;
 	justify-content: center;
 }
-main{
+section{
 	align-items: center;
 	display: flex;
 	justify-content: center;
@@ -64,6 +64,19 @@ main{
 #contenido{
 	width: 100%;
 }
+#medio{
+	background-color:  #d5c75f ;
+	width: 51%;
+	padding: 5%;
+}
+#retrato{
+	width: 40%;
+}
+
+#paisaje{
+	float: right;
+	width: 40%;
+}
 
 @media (min-width:900px) {
 	#contenido{
@@ -83,10 +96,30 @@ main{
 		text-align: center;
 		font-size: 30px;
 	}
+	#medio{
 
+		width: 100%;
+		padding: 10%;
+	}
+	#medio img{
+		width: 90%;
+		margin-left: 5%;
+		border: 2%;
+		margin-top: 12%;
+
+	}
+	#retrato{
+		width: 80%;
+	}
+	#paisaje{
+		float: none;
+		width: 80%;
+	}
 	#panel{
 		margin-top: 2%;
 		margin-left: -20%;
+		text-align: center;
+		float: none;
 	}
 	#central img{
 		width: 90%;
