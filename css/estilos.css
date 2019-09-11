@@ -204,9 +204,7 @@ footer{
 	width: 24.5%;
 }
 
-#redes{
-	padding: 0%;
-}
+
 
 #termino p {
 	width: 55%;
@@ -220,4 +218,13 @@ footer{
 
 #facebook img{
 	width: 90%;
+}
+
+#twitter{
+	width: 100%;
+	display: inline-flex;
+}
+
+#twitter img{
+	width: 50%;
 }
