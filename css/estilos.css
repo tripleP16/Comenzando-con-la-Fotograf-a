@@ -182,3 +182,42 @@ section{
 	transform: translate(20px, -5px);
 
 }
+
+footer{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#pie{
+	width: 57%;
+	background-color: #C6d5c5;
+	height: 30%;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color: black;
+	padding: 2%;
+	display: inline-flex;
+}
+
+#pie div{
+	width: 24.5%;
+}
+
+#redes{
+	padding: 0%;
+}
+
+#termino p {
+	width: 55%;
+}
+
+#facebook{
+	width: 100%;
+	display: inline-flex;
+	padding: 0%;
+}
+
+#facebook img{
+	width: 90%;
+}
