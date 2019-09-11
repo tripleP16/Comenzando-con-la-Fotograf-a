@@ -69,15 +69,37 @@ section{
 	width: 51%;
 	padding: 5%;
 }
-#retrato{
-	width: 40%;
-}
 
-#paisaje{
+#derecha{
 	float: right;
-	width: 40%;
+	width: 47.5%;
 }
 
+#izquierda{
+	float: left;
+	width: 47.5%;
+}
+
+#derecha img {
+	width: 100%;
+}
+
+#izquierda img {
+	width: 100%;
+}
+
+#derecha  {
+	text-align: center;
+	
+}
+
+#izquierda {
+	text-align: center;
+}
+
+#medio a {
+	font-size: 25px;
+}
 @media (min-width:900px) {
 	#contenido{
 		max-width: 900px;
@@ -103,17 +125,19 @@ section{
 	}
 	#medio img{
 		width: 90%;
-		margin-left: 5%;
+		margin-left: 2%;
 		border: 2%;
 		margin-top: 12%;
 
 	}
-	#retrato{
-		width: 80%;
-	}
-	#paisaje{
+
+	#derecha{
 		float: none;
-		width: 80%;
+		width: 100%;
+	}
+	#izquierda {
+		float: none;
+		width: 100%;
 	}
 	#panel{
 		margin-top: 2%;
@@ -127,7 +151,34 @@ section{
 }
 
 .sombra{
-	-webkit-box-shadow: 2px 10px 5px 0px rgba(2,1,10,1);
-	-moz-box-shadow: 2px 10px 5px 0px rgba(2,1,10,1);
-	box-shadow: 2px 10px 5px 0px rgba(2,1,10,1);
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(2,1,10,1);
+	-moz-box-shadow: 2px 2px 2px 2px rgba(2,1,10,1);
+	box-shadow: 2px 2px 2px 2px rgba(2,1,10,1);
+}
+
+#paisaje{
+	transition-duration: 0.5s;
+
+}
+
+#retrato{
+	transition-duration: 0.5s;
+}
+
+#paisaje:hover{
+	transform: rotate(10deg);
+	-webkit-box-shadow: 2px 2px 2px 2px #82c3a6;
+	-moz-box-shadow: 2px 2px 2px 2px #82c3a6;
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+	border: solid 2px;
+
+}
+
+#retrato:hover{
+	-webkit-box-shadow: 2px 2px 2px 2px #82c3a6;
+	-moz-box-shadow: 2px 2px 2px 2px #82c3a6;
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+	border: solid 2px;
+	transform: translate(20px, -5px);
+
 }
