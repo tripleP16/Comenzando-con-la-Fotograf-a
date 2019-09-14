@@ -100,9 +100,52 @@ section{
 #medio a {
 	font-size: 25px;
 }
+
 @media (min-width:900px) {
 	#contenido{
 		max-width: 900px;
+	}
+	footer{
+		width: 57%;
+		padding: 2%;
+		display: flex;
+		margin: 0 auto;
+	}
+
+	footer a {
+		color: black;
+	}
+
+	#contacto{
+		float: left;
+		width: 24.5%;
+	}
+
+	#terminos{
+		float: right;
+		width: 24.5%;
+	}
+
+	#redes{
+		float: right;
+		width: 24.5%;
+	}
+
+	.red{
+		display: flex;
+		width: 100%;
+	}
+	.logo{
+		width: 20%;
+	}
+
+	.copy{
+		width: 5%;
+		height: 2.5%;
+	}
+	#derechos{
+		float: right;
+		width: 24.5%;
 	}
 }
 
@@ -148,6 +191,45 @@ section{
 	#central img{
 		width: 90%;
 	}
+
+	footer{
+		width: 100%;
+		display: block;
+		padding: 5%;
+	}
+	#contacto{
+		float: none;
+		width: 100%;
+	}
+
+	#terminos{
+		float: none;
+		width: 100%;
+	}
+
+	#redes{
+		float: none;
+		width: 100%;
+	}
+
+	.red{
+		display: flex;
+		width: 100%;
+	}
+	.logo{
+		width: 20%;
+	}
+
+	.copy{
+		width: 5%;
+		height: 2.5%;
+	}
+	#derechos{
+		float: none;
+		width: 100%;
+	}
+	
+
 }
 
 .sombra{
@@ -183,48 +265,13 @@ section{
 
 }
 
+footer p{
+	font-size: 1.2em;
+}
 footer{
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
-
-#pie{
-	width: 57%;
 	background-color: #C6d5c5;
-	height: 30%;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 	color: black;
-	padding: 2%;
-	display: inline-flex;
-}
-
-#pie div{
-	width: 24.5%;
-}
-
-
-
-#termino p {
-	width: 55%;
-}
-
-#facebook{
-	width: 100%;
-	display: inline-flex;
-	padding: 0%;
-}
-
-#facebook img{
-	width: 90%;
-}
-
-#twitter{
-	width: 100%;
-	display: inline-flex;
-}
-
-#twitter img{
-	width: 50%;
+	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
